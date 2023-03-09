@@ -1,0 +1,1652 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "otaku-discord-bot"
+      version: "0.0.1"
+      description: "Отаку-бот для дискорда"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        express: "^4.16.4"
+        discord.js: "^11.5.0"
+        node: "^12.11.1"
+        openai: "^3.2.1"
+        openai-api: "^1.3.1"
+        got: "^12.6.0"
+      engines: 
+        node: "10.x"
+      repository: 
+        url: "https://otaku-discord-bot.glitch.me/"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "278c82b075dbe3814cf47bf88b95a596bd362d44"
+      readme: "ERROR: No README data found!"
+      _id: "otaku-discord-bot@0.0.1"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.18.2"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:deprecation: 
+    deprecated: "no longer supported"
+    depth: 0
+    pkgId: "registry.npmjs.org/discord.js/11.6.4"
+    pkgName: "discord.js"
+    pkgVersion: "11.6.4"
+    prefix: "/app"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.6.4"
+    requester: "/app"
+    status: "resolved"
+  7 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/openai/3.2.1"
+    requester: "/app"
+    status: "resolved"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/openai-api/1.3.1"
+    requester: "/app"
+    status: "resolved"
+  9 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/got/12.6.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/got/12.6.0"
+    requester: "/app"
+    status: "resolved"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/12.22.12"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.18.2"
+    requester: "/app"
+    status: "found_in_store"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.8"
+    requester: "/app"
+    status: "resolved"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.20.1"
+    requester: "/app"
+    status: "resolved"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.4"
+    requester: "/app"
+    status: "resolved"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.5"
+    requester: "/app"
+    status: "resolved"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.5.0"
+    requester: "/app"
+    status: "resolved"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.4.1"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.11.0"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.18.0"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.15.0"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "resolved"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/discord.js/11.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/openai/3.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/openai-api/1.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/got/12.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/12.22.12"
+    requester: "/app"
+    status: "found_in_store"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.4"
+    requester: "/app"
+    status: "resolved"
+  51 debug pnpm:deprecation: 
+    deprecated: "use node-fetch instead"
+    depth: 1
+    pkgId: "registry.npmjs.org/snekfetch/3.6.4"
+    pkgName: "snekfetch"
+    pkgVersion: "3.6.4"
+    prefix: "/app"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "resolved"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.2.2"
+    requester: "/app"
+    status: "resolved"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/axios/0.26.1"
+    requester: "/app"
+    status: "resolved"
+  56 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/axios/0.21.4"
+    requester: "/app"
+    status: "resolved"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dotenv/8.6.0"
+    requester: "/app"
+    status: "resolved"
+  59 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@sindresorhus/is/5.3.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/5.3.0"
+    requester: "/app"
+    status: "resolved"
+  61 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@szmarczak/http-timer/5.0.1: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@szmarczak/http-timer/5.0.1"
+    requester: "/app"
+    status: "resolved"
+  63 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/cacheable-lookup/7.0.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-lookup/7.0.0"
+    requester: "/app"
+    status: "resolved"
+  65 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/cacheable-request/10.2.8: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  66 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-request/10.2.8"
+    requester: "/app"
+    status: "resolved"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/decompress-response/6.0.0"
+    requester: "/app"
+    status: "resolved"
+  68 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/form-data-encoder/2.1.4: wanted: {\"node\":\">= 14.17\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data-encoder/2.1.4"
+    requester: "/app"
+    status: "resolved"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-stream/6.0.1"
+    requester: "/app"
+    status: "resolved"
+  71 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http2-wrapper/2.2.0"
+    requester: "/app"
+    status: "resolved"
+  72 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/lowercase-keys/3.0.0: wanted: {\"node\":\"^12.20.0 || ^14.13.1 || >=16.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  73 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lowercase-keys/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  74 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/p-cancelable/3.0.0: wanted: {\"node\":\">=12.20\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/p-cancelable/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  76 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/responselike/3.0.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/responselike/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "resolved"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.8"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.20.1"
+    requester: "/app"
+    status: "found_in_store"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.4"
+    requester: "/app"
+    status: "found_in_store"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  84 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "found_in_store"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "found_in_store"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.4.1"
+    requester: "/app"
+    status: "found_in_store"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "found_in_store"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.11.0"
+    requester: "/app"
+    status: "found_in_store"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.18.0"
+    requester: "/app"
+    status: "found_in_store"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.15.0"
+    requester: "/app"
+    status: "found_in_store"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  107 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "found_in_store"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.35"
+    requester: "/app"
+    status: "resolved"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.3"
+    requester: "/app"
+    status: "resolved"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.2"
+    requester: "/app"
+    status: "resolved"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "resolved"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.5.1"
+    requester: "/app"
+    status: "resolved"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "resolved"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.2.0"
+    requester: "/app"
+    status: "resolved"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.1"
+    requester: "/app"
+    status: "resolved"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/long/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/prism-media/0.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/snekfetch/3.6.4"
+    requester: "/app"
+    status: "found_in_store"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tweetnacl/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ws/6.2.2"
+    requester: "/app"
+    status: "found_in_store"
+  129 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/axios/0.26.1"
+    requester: "/app"
+    status: "found_in_store"
+  130 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  131 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/axios/0.21.4"
+    requester: "/app"
+    status: "found_in_store"
+  132 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dotenv/8.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@sindresorhus/is/5.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  134 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@szmarczak/http-timer/5.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-lookup/7.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  136 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cacheable-request/10.2.8"
+    requester: "/app"
+    status: "found_in_store"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/decompress-response/6.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  138 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/form-data-encoder/2.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-stream/6.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  140 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http2-wrapper/2.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  141 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/lowercase-keys/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  142 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/p-cancelable/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  143 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/responselike/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  144 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  145 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "resolved"
+  146 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.3"
+    requester: "/app"
+    status: "resolved"
+  147 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  148 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  149 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/follow-redirects/1.15.2"
+    requester: "/app"
+    status: "resolved"
+  150 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "resolved"
+  151 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "resolved"
+  152 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/defer-to-connect/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  153 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/http-cache-semantics/4.0.1"
+    requester: "/app"
+    status: "resolved"
+  154 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-cache-semantics/4.1.1"
+    requester: "/app"
+    status: "resolved"
+  155 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/keyv/4.5.2"
+    requester: "/app"
+    status: "resolved"
+  156 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mimic-response/4.0.0: wanted: {\"node\":\"^12.20.0 || ^14.13.1 || >=16.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  157 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/4.0.0"
+    requester: "/app"
+    status: "resolved"
+  158 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/normalize-url/8.0.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  159 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/normalize-url/8.0.0"
+    requester: "/app"
+    status: "resolved"
+  160 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/responselike/3.0.0: wanted: {\"node\":\">=14.16\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  161 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.35"
+    requester: "/app"
+    status: "found_in_store"
+  162 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.3"
+    requester: "/app"
+    status: "found_in_store"
+  163 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  164 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  165 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "found_in_store"
+  166 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  167 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/3.1.0"
+    requester: "/app"
+    status: "resolved"
+  168 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick-lru/5.1.1"
+    requester: "/app"
+    status: "resolved"
+  169 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/resolve-alpn/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  170 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/lowercase-keys/3.0.0: wanted: {\"node\":\"^12.20.0 || ^14.13.1 || >=16.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  171 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.52.0"
+    requester: "/app"
+    status: "resolved"
+  172 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  173 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  174 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  175 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  176 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  177 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  178 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.1"
+    requester: "/app"
+    status: "found_in_store"
+  179 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  180 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  181 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/async-limiter/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  182 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/follow-redirects/1.15.2"
+    requester: "/app"
+    status: "found_in_store"
+  183 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/asynckit/0.4.0"
+    requester: "/app"
+    status: "found_in_store"
+  184 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/combined-stream/1.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  185 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/defer-to-connect/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  186 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/http-cache-semantics/4.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  187 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  188 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  189 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  190 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  191 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  192 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.12.3"
+    requester: "/app"
+    status: "resolved"
+  193 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-cache-semantics/4.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  194 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/keyv/4.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  195 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/4.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  196 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/normalize-url/8.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  197 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mimic-response/3.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  198 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/quick-lru/5.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  199 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/resolve-alpn/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  200 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.52.0"
+    requester: "/app"
+    status: "found_in_store"
+  201 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  202 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/json-buffer/3.0.1"
+    requester: "/app"
+    status: "resolved"
+  203 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  204 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  205 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  206 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.12.3"
+    requester: "/app"
+    status: "found_in_store"
+  207 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  208 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  209 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/delayed-stream/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  210 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/json-buffer/3.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  211 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  212 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  213 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  214 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  215 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  216 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      name: "otaku-discord-bot"
+      version: "0.0.1"
+      description: "Отаку-бот для дискорда"
+      main: "server.js"
+      scripts: 
+        start: "node server.js"
+      dependencies: 
+        express: "^4.16.4"
+        discord.js: "^11.5.0"
+        node: "^12.11.1"
+        openai: "^3.2.1"
+        openai-api: "^1.3.1"
+        got: "^12.6.0"
+      engines: 
+        node: "10.x"
+      repository: 
+        url: "https://otaku-discord-bot.glitch.me/"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "278c82b075dbe3814cf47bf88b95a596bd362d44"
+      readme: "ERROR: No README data found!"
+      _id: "otaku-discord-bot@0.0.1"
+  217 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of @discordjs/uws@^10.149.0 but none was installed."
+    prefix: "/app"
+  218 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of bufferutil@^4.0.0 but none was installed."
+    prefix: "/app"
+  219 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of erlpack@discordapp/erlpack but none was installed."
+    prefix: "/app"
+  220 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of libsodium-wrappers@^0.7.3 but none was installed."
+    prefix: "/app"
+  221 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of @discordjs/opus@^0.1.0 but none was installed."
+    prefix: "/app"
+  222 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of node-opus@^0.2.7 but none was installed."
+    prefix: "/app"
+  223 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of opusscript@^0.0.6 but none was installed."
+    prefix: "/app"
+  224 warn pnpm: 
+    message: "discord.js@11.6.4 requires a peer of sodium@^2.0.3 but none was installed."
+    prefix: "/app"
+  225 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  226 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  227 debug pnpm:stats: 
+    added: 98
+    prefix: "/app"
+  228 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/accepts"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/accepts"
+  229 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/array-flatten"
+  230 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/body-parser"
+  231 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/content-disposition"
+  232 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/content-type"
+  233 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cookie/0.5.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/cookie"
+  234 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/cookie-signature"
+  235 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/debug"
+  236 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/depd"
+  237 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/encodeurl"
+  238 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/escape-html"
+  239 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/etag"
+  240 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/finalhandler"
+  241 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/fresh"
+  242 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/http-errors"
+  243 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/merge-descriptors"
+  244 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/methods"
+  245 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/on-finished"
+  246 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/parseurl"
+  247 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/path-to-regexp"
+  248 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/proxy-addr"
+  249 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/qs"
+  250 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/range-parser"
+  251 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/safe-buffer"
+  252 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/send"
+  253 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/serve-static"
+  254 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/setprototypeof"
+  255 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/statuses"
+  256 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/type-is"
+  257 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/utils-merge"
+  258 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/vary"
+  259 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/mime-types"
+  260 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/negotiator/0.6.3/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/negotiator"
+  261 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-db/1.52.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-db"
+  262 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/bytes"
+  263 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/content-type"
+  264 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/debug"
+  265 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/depd"
+  266 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/destroy"
+  267 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/http-errors"
+  268 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/iconv-lite"
+  269 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/on-finished"
+  270 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/qs"
+  271 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/raw-body"
+  272 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/type-is"
+  273 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/unpipe"
+  274 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/ms"
+  275 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/depd"
+  276 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/inherits"
+  277 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/setprototypeof"
+  278 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/statuses"
+  279 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/toidentifier/1.0.1/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/toidentifier"
+  280 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/safer-buffer"
+  281 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/ee-first"
+  282 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/side-channel"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/side-channel"
+  283 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/call-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/call-bind"
+  284 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/get-intrinsic"
+  285 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/object-inspect/1.12.3/node_modules/object-inspect"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/object-inspect"
+  286 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/function-bind"
+  287 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/get-intrinsic"
+  288 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/function-bind"
+  289 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/has"
+  290 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/has-symbols/1.0.3/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/has-symbols"
+  291 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/function-bind"
+  292 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/bytes"
+  293 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/http-errors"
+  294 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/iconv-lite"
+  295 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/unpipe"
+  296 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/media-typer"
+  297 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/mime-types"
+  298 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/safe-buffer"
+  299 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/debug"
+  300 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/encodeurl"
+  301 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/escape-html"
+  302 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/on-finished"
+  303 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/parseurl"
+  304 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/statuses"
+  305 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/unpipe"
+  306 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/forwarded/0.2.0/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/forwarded"
+  307 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ipaddr.js/1.9.1/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/ipaddr.js"
+  308 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/debug"
+  309 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/depd"
+  310 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/destroy"
+  311 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/encodeurl"
+  312 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/escape-html"
+  313 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/etag"
+  314 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/fresh"
+  315 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/http-errors"
+  316 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/mime"
+  317 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ms/2.1.3/node_modules/ms"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/ms"
+  318 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/on-finished"
+  319 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/range-parser"
+  320 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/statuses"
+  321 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/encodeurl"
+  322 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/escape-html"
+  323 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/parseurl"
+  324 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/send"
+  325 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/long"
+  326 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/prism-media/0.0.4/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/prism-media"
+  327 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/snekfetch"
+  328 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/tweetnacl"
+  329 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ws/6.2.2/node_modules/ws"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/ws"
+  330 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ws/6.2.2/node_modules/async-limiter"
+  331 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/node/12.22.12/node_modules/node-bin-setup"
+  332 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/axios/0.26.1/node_modules/axios"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai/3.2.1/node_modules/axios"
+  333 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data/4.0.0/node_modules/form-data"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai/3.2.1/node_modules/form-data"
+  334 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/follow-redirects/1.15.2/node_modules/follow-redirects"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/axios/0.26.1/node_modules/follow-redirects"
+  335 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/asynckit/0.4.0/node_modules/asynckit"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data/4.0.0/node_modules/asynckit"
+  336 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/combined-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data/4.0.0/node_modules/combined-stream"
+  337 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data/4.0.0/node_modules/mime-types"
+  338 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/delayed-stream/1.0.0/node_modules/delayed-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/delayed-stream"
+  339 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/axios/0.21.4/node_modules/axios"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai-api/1.3.1/node_modules/axios"
+  340 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/dotenv/8.6.0/node_modules/dotenv"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai-api/1.3.1/node_modules/dotenv"
+  341 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/follow-redirects/1.15.2/node_modules/follow-redirects"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/axios/0.21.4/node_modules/follow-redirects"
+  342 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@sindresorhus/is/5.3.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/@sindresorhus/is"
+  343 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@szmarczak/http-timer/5.0.1/node_modules/@szmarczak/http-timer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/@szmarczak/http-timer"
+  344 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-lookup/7.0.0/node_modules/cacheable-lookup"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/cacheable-lookup"
+  345 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/cacheable-request"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/cacheable-request"
+  346 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/decompress-response/6.0.0/node_modules/decompress-response"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/decompress-response"
+  347 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data-encoder/2.1.4/node_modules/form-data-encoder"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/form-data-encoder"
+  348 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-stream/6.0.1/node_modules/get-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/get-stream"
+  349 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http2-wrapper/2.2.0/node_modules/http2-wrapper"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/http2-wrapper"
+  350 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/lowercase-keys/3.0.0/node_modules/lowercase-keys"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/lowercase-keys"
+  351 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/p-cancelable/3.0.0/node_modules/p-cancelable"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/p-cancelable"
+  352 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/responselike/3.0.0/node_modules/responselike"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/responselike"
+  353 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/defer-to-connect/2.0.1/node_modules/defer-to-connect"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@szmarczak/http-timer/5.0.1/node_modules/defer-to-connect"
+  354 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@types/http-cache-semantics/4.0.1/node_modules/@types/http-cache-semantics"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/@types/http-cache-semantics"
+  355 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-stream/6.0.1/node_modules/get-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/get-stream"
+  356 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-cache-semantics/4.1.1/node_modules/http-cache-semantics"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/http-cache-semantics"
+  357 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/keyv/4.5.2/node_modules/keyv"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/keyv"
+  358 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mimic-response/4.0.0/node_modules/mimic-response"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/mimic-response"
+  359 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/normalize-url/8.0.0/node_modules/normalize-url"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/normalize-url"
+  360 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/responselike/3.0.0/node_modules/responselike"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/responselike"
+  361 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/json-buffer/3.0.1/node_modules/json-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/keyv/4.5.2/node_modules/json-buffer"
+  362 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/lowercase-keys/3.0.0/node_modules/lowercase-keys"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/responselike/3.0.0/node_modules/lowercase-keys"
+  363 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mimic-response/3.1.0/node_modules/mimic-response"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/decompress-response/6.0.0/node_modules/mimic-response"
+  364 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/quick-lru/5.1.1/node_modules/quick-lru"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http2-wrapper/2.2.0/node_modules/quick-lru"
+  365 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/resolve-alpn/1.2.1/node_modules/resolve-alpn"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http2-wrapper/2.2.0/node_modules/resolve-alpn"
+  366 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  367 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/express"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/express"
+  368 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/discord.js/11.6.4/node_modules/discord.js"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/discord.js"
+  369 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/node/12.22.12/node_modules/node"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/node"
+  370 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai/3.2.1/node_modules/openai"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/openai"
+  371 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/openai-api/1.3.1/node_modules/openai-api"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/openai-api"
+  372 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/got/12.6.0/node_modules/got"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/got"
+  373 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@sindresorhus/is/5.3.0/node_modules/@sindresorhus/is"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/@sindresorhus/is"
+  374 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@szmarczak/http-timer/5.0.1/node_modules/@szmarczak/http-timer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/@szmarczak/http-timer"
+  375 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/accepts"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/accepts"
+  376 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/array-flatten"
+  377 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/axios/0.26.1/node_modules/axios"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/axios"
+  378 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/body-parser"
+  379 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-lookup/7.0.0/node_modules/cacheable-lookup"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/cacheable-lookup"
+  380 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cacheable-request/10.2.8/node_modules/cacheable-request"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/cacheable-request"
+  381 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/content-disposition"
+  382 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/content-type"
+  383 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cookie/0.5.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/cookie"
+  384 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/cookie-signature"
+  385 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/debug"
+  386 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/decompress-response/6.0.0/node_modules/decompress-response"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/decompress-response"
+  387 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/depd"
+  388 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/dotenv/8.6.0/node_modules/dotenv"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/dotenv"
+  389 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/encodeurl"
+  390 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/escape-html"
+  391 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/etag"
+  392 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/finalhandler"
+  393 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data/4.0.0/node_modules/form-data"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/form-data"
+  394 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/form-data-encoder/2.1.4/node_modules/form-data-encoder"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/form-data-encoder"
+  395 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/fresh"
+  396 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-stream/6.0.1/node_modules/get-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/get-stream"
+  397 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/http-errors"
+  398 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http2-wrapper/2.2.0/node_modules/http2-wrapper"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/http2-wrapper"
+  399 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/long/4.0.0/node_modules/long"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/long"
+  400 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/lowercase-keys/3.0.0/node_modules/lowercase-keys"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/lowercase-keys"
+  401 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/merge-descriptors"
+  402 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/methods"
+  403 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/node-bin-setup"
+  404 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/on-finished"
+  405 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/p-cancelable/3.0.0/node_modules/p-cancelable"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/p-cancelable"
+  406 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/parseurl"
+  407 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/path-to-regexp"
+  408 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/prism-media/0.0.4/node_modules/prism-media"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/prism-media"
+  409 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/proxy-addr"
+  410 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/qs"
+  411 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/range-parser"
+  412 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/responselike/3.0.0/node_modules/responselike"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/responselike"
+  413 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/safe-buffer"
+  414 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/send"
+  415 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/serve-static"
+  416 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/setprototypeof"
+  417 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/snekfetch/3.6.4/node_modules/snekfetch"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/snekfetch"
+  418 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/statuses"
+  419 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/tweetnacl/1.0.3/node_modules/tweetnacl"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/tweetnacl"
+  420 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/type-is"
+  421 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/utils-merge"
+  422 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/vary"
+  423 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ws/6.2.2/node_modules/ws"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/ws"
+  424 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/@types/http-cache-semantics/4.0.1/node_modules/@types/http-cache-semantics"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/@types/http-cache-semantics"
+  425 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/async-limiter/1.0.1/node_modules/async-limiter"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/async-limiter"
+  426 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/asynckit/0.4.0/node_modules/asynckit"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/asynckit"
+  427 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/bytes"
+  428 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/combined-stream/1.0.8/node_modules/combined-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/combined-stream"
+  429 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/defer-to-connect/2.0.1/node_modules/defer-to-connect"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/defer-to-connect"
+  430 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/destroy"
+  431 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/ee-first"
+  432 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/follow-redirects/1.15.2/node_modules/follow-redirects"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/follow-redirects"
+  433 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/forwarded/0.2.0/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/forwarded"
+  434 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/http-cache-semantics/4.1.1/node_modules/http-cache-semantics"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/http-cache-semantics"
+  435 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/iconv-lite"
+  436 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/inherits"
+  437 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ipaddr.js/1.9.1/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/ipaddr.js"
+  438 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/keyv/4.5.2/node_modules/keyv"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/keyv"
+  439 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/media-typer"
+  440 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/mime"
+  441 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/mime-types"
+  442 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mimic-response/4.0.0/node_modules/mimic-response"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/mimic-response"
+  443 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/ms"
+  444 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/negotiator/0.6.3/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/negotiator"
+  445 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/normalize-url/8.0.0/node_modules/normalize-url"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/normalize-url"
+  446 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/quick-lru/5.1.1/node_modules/quick-lru"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/quick-lru"
+  447 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/raw-body"
+  448 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/resolve-alpn/1.2.1/node_modules/resolve-alpn"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/resolve-alpn"
+  449 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/side-channel"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/side-channel"
+  450 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/toidentifier/1.0.1/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/toidentifier"
+  451 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/unpipe"
+  452 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/call-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/call-bind"
+  453 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/delayed-stream/1.0.0/node_modules/delayed-stream"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/delayed-stream"
+  454 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/get-intrinsic/1.2.0/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/get-intrinsic"
+  455 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/json-buffer/3.0.1/node_modules/json-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/json-buffer"
+  456 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/mime-db/1.52.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/mime-db"
+  457 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/object-inspect/1.12.3/node_modules/object-inspect"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/object-inspect"
+  458 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/safer-buffer"
+  459 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/function-bind"
+  460 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/has"
+  461 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/.registry.npmjs.org/has-symbols/1.0.3/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/has-symbols"
+  462 error pnpm: 
+    message: 
+      errno: -2
+      code: "ENOENT"
+      syscall: "chmod"
+      path: "/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/node/bin/node"
+    err: 
+      name: "Error"
+      message: "ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/node/bin/node'"
+      code: "ENOENT"
+      stack: "Error: ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/170f4e10-7755-4c99-a288-119712f431c8/node_modules/node/bin/node'"

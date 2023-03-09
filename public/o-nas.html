@@ -1,0 +1,11 @@
+<script>const tectalicOpenai = require('@tectalic/openai').default;
+
+tectalicOpenai("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")
+  .completions.create({
+    model: 'text-davinci-002',
+    prompt: 'Will using a third party package save time?'
+  })
+  .then((response) => {
+    console.log(response.data.choices[0].text.trim());
+  });
+</script>
